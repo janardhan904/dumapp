@@ -1,3 +1,4 @@
+import logo from "./dumapp.png";
 
 function App() {
   return (
@@ -5,6 +6,10 @@ function App() {
       <h1>
         dumapp
       </h1>
+      <p>
+        This is paragraph
+      </p>
+      <img src={logo} alt="dum app logo"/>
     </div>
   );
 }
